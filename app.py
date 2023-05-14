@@ -3,7 +3,7 @@ import cv2
 
 app = Flask(__name__)
 
-camera = cv2.VideoCapture('rtsp://admin:abrar123@192.168.1.64:554/Streaming/Channels/101')  # use 0 for web camera
+camera = cv2.VideoCapture('rtsp://admin:{Add your admin and password}/Streaming/Channels/101')  # use 0 for web camera
 #  for cctv camera use rtsp://username:password@ip_address:554/user=username_password='password'_channel=channel_number_stream=0.sdp' instead of camera
 # for local webcam use cv2.VideoCapture(0)
 
